@@ -1,0 +1,8 @@
+export(etrian)
+export(rhist)
+export(rtrian)
+export(UMDA)
+import(EEEA)
+importFrom("graphics", "hist")
+importFrom("stats", "density", "rnorm", "runif", "sd")
+importFrom("utils", "tail")

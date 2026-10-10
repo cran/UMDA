@@ -1,0 +1,51 @@
+Package: UMDA
+Type: Package
+Title: Univariate Marginal Distribution Algorithm
+Description: Implements the Univariate Marginal Distribution Algorithm (UMDA), an Estimation of Distribution Algorithm (EDA) for continuous optimization problems. The method iteratively selects the best individuals from a population, estimates an independent marginal probability distribution for each decision variable, and generates new candidate solutions by sampling from the estimated distributions. This process allows the probability model to adapt toward promising regions of the search space. The implementation supports normal, triangular, histogram-based, and uniform probability distributions, together with an optional explicit exploration strategy for the initialization of the population. The implemented explicit exploration strategy in this package is described in Salinas Gutierrez and Muñoz Zavala (2023) <doi:10.1016/j.asoc.2023.110230>.
+Version: 0.1.0
+Authors@R: c(person(given="Rogelio", family="Salinas Gutiérrez", role = c("aut", "cre", "cph"),
+                    email = "rogelio.salinas@edu.uaa.mx", comment = c(ORCID = "0000-0002-1669-4460")),
+                    person(given="Juan Alberto", family="Dávila del Alto", role = c("aut", "cph"),
+                    email = "al281477@edu.uaa.mx", comment = c(ORCID = "0009-0007-2798-6251")),
+                    person(given="Jhon Daniel", family="Aguilar Payares", role = c("aut", "cph"),
+                    email = "al604586@edu.uaa.mx", comment = c(ORCID = "0009-0009-6509-4486")),
+                    person(given="Jonathan Michell", family="Jauregui Carranza", role = c("aut", "cph"),
+                    email = "al226846@edu.uaa.mx", comment = c(ORCID = "0009-0005-2688-8065")),
+                    person(given="Hiram Efraim", family="Macias Ruelas", role = c("aut", "cph"),
+                    email = "al315982@edu.uaa.mx", comment = c(ORCID = "0009-0009-3847-159X")),
+                    person(given="Byron Axel", family="Morales Gutiérrez", role = c("aut", "cph"),
+                    email = "al347107@edu.uaa.mx", comment = c(ORCID = "0009-0006-3446-3830")),
+                    person(given="María Fernanda", family="Nieto Guerrero", role = c("aut", "cph"),
+                    email = "al243497@edu.uaa.mx", comment = c(ORCID = "0009-0000-1738-1733")),
+                    person(given="Manuel Alonso", family="Segoviano Baltazar", role = c("aut", "cph"),
+                    email = "al350803@edu.uaa.mx", comment = c(ORCID = "0009-0007-1494-7472")),
+                    person(given="Pedro Abraham", family="Montoya Calzada", role = c("aut", "cph"),
+                    comment = c(ORCID = "0009-0002-3497-210X"))
+                    )
+License: GPL-3
+Encoding: UTF-8
+Imports: EEEA
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-09-29 04:35:19 UTC; rogel
+Author: Rogelio Salinas Gutiérrez [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-1669-4460>),
+  Juan Alberto Dávila del Alto [aut, cph] (ORCID:
+    <https://orcid.org/0009-0007-2798-6251>),
+  Jhon Daniel Aguilar Payares [aut, cph] (ORCID:
+    <https://orcid.org/0009-0009-6509-4486>),
+  Jonathan Michell Jauregui Carranza [aut, cph] (ORCID:
+    <https://orcid.org/0009-0005-2688-8065>),
+  Hiram Efraim Macias Ruelas [aut, cph] (ORCID:
+    <https://orcid.org/0009-0009-3847-159X>),
+  Byron Axel Morales Gutiérrez [aut, cph] (ORCID:
+    <https://orcid.org/0009-0006-3446-3830>),
+  María Fernanda Nieto Guerrero [aut, cph] (ORCID:
+    <https://orcid.org/0009-0000-1738-1733>),
+  Manuel Alonso Segoviano Baltazar [aut, cph] (ORCID:
+    <https://orcid.org/0009-0007-1494-7472>),
+  Pedro Abraham Montoya Calzada [aut, cph] (ORCID:
+    <https://orcid.org/0009-0002-3497-210X>)
+Maintainer: Rogelio Salinas Gutiérrez <rogelio.salinas@edu.uaa.mx>
+Repository: CRAN
+Date/Publication: 2026-10-10 10:10:18 UTC
